@@ -7,7 +7,6 @@ createServer ((req, res) => {
     //informa que o tipo de conteúdo é html e usa utf-8
     res.writeHead(200, {
         'Content-type' : 'text/html charset=utf-8',
-        'Content-length' : '120',
         'Header-costumizado' : 'Leonardo'
     });
 
